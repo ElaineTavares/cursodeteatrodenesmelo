@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imagens/logo_denes_teatro.png">
+    <title>Curso de Teatro - PROF. DENES MELO</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="script.js" defer></script>
+    <script src="main.js" defer></script>
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+
+    <header>
+        <nav class="navbar bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <img class="logo" src="./imagens/logo-removebg-preview.png" alt="logo">
+              <a class="navbar-brand" href="#">Sobre mim</a>
+              <a class="navbar-brand" href="#">Galeria de Fotos</a>
+              <a class="navbar-brand" href="#">Contato</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#">Sobre mim</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Galeria de Fotos</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                     </li>  
+                  </ul> 
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+
+   <section class="apresentacao">
+        <!-- Swiper -->
+        <div class="swiper mySwiper" data-anime="left">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./imagens/denes_melo_1.jpeg" alt=""></div>
+            <div class="swiper-slide"><img src="./imagens/denes_melo_2.jpeg" alt=""></div>
+            <div class="swiper-slide"><img src="./imagens/denes_melo_3.jpeg" alt=""></div>
+            <div class="swiper-slide"><img src="./imagens/denes_melo_4.jpeg" alt=""></div>
+            <div class="swiper-slide"><img src="./imagens/denes_melo_5.jpeg" alt=""></div>
+            <div class="swiper-slide"><img src="./imagens/denes_melo_6.jpeg" alt=""></div>
+            <div class="swiper-slide"><img src="./imagens/denes_melo_7.jpeg" alt=""></div>
+            <div class="swiper-slide"><img src="./imagens/denes_melo_8.jpeg" alt=""></div>
+            <div class="swiper-slide"><img src="./imagens/denes_melo_9.jpeg" alt=""></div>
+            
+            </div>
+            <!-- <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div> -->
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="texto" data-anime="right">
+            <h2>Sobre Mim:</h2>
+            <p>Denes Melo é Professor, Autor, Ator e Diretor de teatro, Locutor, Jornalista. Credenciado ao Sindicado dos Artistas RJ SATED RJ e ao Sindicato dos Radialistas RJ SINRADTV RJ</p>
+            <p>Denes Melo iniciou no teatro com 17 anos no ano de 2000 e começou a ministrar aula em 2002 para crianças e depois para adultos. Com mais de 10 peças de teatro entre elas O auto da Compadecida de Ariano Suassuna, Marido fiel para sempre de Nelson Rodrigues adaptação de Denes Melo Idéias de canários de Machado de Assis. Tem formação profissional em teatro. Licenciado em Filosofia, Bacharel em teologia, pós graduado em psicopedagogia, pós graduado em teatro expressividade no ambiente escolar.</p>
+        </div>
+   </section>
+
+   <section class="frase_de_efeito" data-anime="left">
+        <h3>O teatro é a escola para a vida, trabalha todo o desenvolvimento do ser humano. Por isso existe um provérbio que diz que o mundo é um teatro.</h3>
+   </section>
+
+   <section class="galeria_de_fotos" data-anime="left">
+        <h3>Galeria de Fotos</h3>
+        <div class="container" id="cards" >
+            <!-- <a href="#" class="card">
+                <img src="./imagens/galeria_1.jpeg" alt="">
+            </a> -->   
+        </div>
+   </section>
+
+   <section class="secao_logo" data-anime="up">
+        <img src="./imagens/logo-removebg-preview.png" alt="">
+        <a href="#"></a>
+   </section>
+
+   <footer class="footer">
+        <div class="container_endereco">
+          <h5>Endereço: XXXXXXXXXXXXXX</h5>
+          <a href="#">E-mail: XXXXXXXXXXXXX</a>
+        </div>    
+          <img class="logo_rodape" src="./imagens/logo-removebg-preview.png" alt="logo">
+        <div class="redes">
+              <a href="https://wa.me/5521982996612?text=Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20as%20aulas%20de%20teatro" target='blank'><img src="./imagens/whats.svg" alt=""></a>
+              <a href=" https://www.instagram.com/invites/contact/?igsh=11ygx5ruwyhzq&utm_content=rqbxch6" target='blank'><img src="./imagens/instagram.svg" alt=""></a>
+              <a href="https://youtube.com/@denesmmelo" target='blank'><img src="./imagens/youtube.svg" alt=""></a>
+             
+        </div>
+   </footer>
+
+    
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+</html>
