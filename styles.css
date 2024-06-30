@@ -153,6 +153,33 @@ body{
     width: 400px;
   }
 
+  .whats_contato{
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+  .whats_contato img{
+    width: 100px;
+    
+  }
+
+  .whats_contato p{
+    margin-left: -30px;
+    margin-top: 8px;
+    
+  }
+
+
+  .whats_contato {
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+  }
+
   /*ANIMAÇÃO*/
   [data-anime]{
     opacity: 0;
@@ -181,7 +208,7 @@ body{
   }
 
   .footer{
-    background-color: #dbdbdb;
+    background: #c4c4ff;
     /* border: 2px solid black; */
     display: flex;
     flex-flow: row wrap;
@@ -190,6 +217,7 @@ body{
     padding-inline: 5%;
     padding-block: 2%;
     width: 100%;
+    padding-bottom: 5%;
   }
 
   .footer .container_endereco{
@@ -232,18 +260,17 @@ body{
     }
 }
 
-@media(max-width: 671px){
-  .navbar-toggler{
-      display: block !important;
-      background-color: #fff !important;
-  }
-
-  .navbar-brand{
-      display: none;
-  }
-}
 
 @media(max-width: 612px){
+  .frase_de_efeito h3{
+    font-size: 2.5rem;
+   
+  }
+
+  .img_secao_logo{
+    width: 350px;
+  }
+
   .footer{
     flex-flow: column;
     gap: 30px;

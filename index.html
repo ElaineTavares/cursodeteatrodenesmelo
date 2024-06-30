@@ -19,9 +19,9 @@
         <nav class="navbar bg-body-tertiary fixed-top">
             <div class="container-fluid">
                 <img class="logo" src="./imagens/logo-removebg-preview.png" alt="logo">
-              <a class="navbar-brand" href="#">Sobre mim</a>
-              <a class="navbar-brand" href="#">Galeria de Fotos</a>
-              <a class="navbar-brand" href="#">Contato</a>
+              <a class="navbar-brand" href="#sobremim">Sobre mim</a>
+              <a class="navbar-brand" href="#galeriadefotos">Galeria de Fotos</a>
+              <a class="navbar-brand" href="#contato">Contato</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -32,13 +32,13 @@
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="#">Sobre mim</a>
+                      <a class="nav-link" aria-current="page" href="#sobremim">Sobre mim</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Galeria de Fotos</a>
+                      <a class="nav-link" href="#galeriadefotos">Galeria de Fotos</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Contato</a>
+                    <a class="nav-link" href="#contato">Contato</a>
                      </li>  
                   </ul> 
                 </div>
@@ -48,7 +48,7 @@
     </header>
 
 
-   <section class="apresentacao">
+   <section class="apresentacao" id="sobremim">
         <!-- Swiper -->
         <div class="swiper mySwiper" data-anime="left">
             <div class="swiper-wrapper">
@@ -78,7 +78,7 @@
         <h3>O teatro é a escola para a vida, trabalha todo o desenvolvimento do ser humano. Por isso existe um provérbio que diz que o mundo é um teatro.</h3>
    </section>
 
-   <section class="galeria_de_fotos" data-anime="left">
+   <section class="galeria_de_fotos" data-anime="left" id="galeriadefotos">
         <h3>Galeria de Fotos</h3>
         <div class="container" id="cards" >
             <!-- <a href="#" class="card">
@@ -87,9 +87,12 @@
         </div>
    </section>
 
-   <section class="secao_logo" data-anime="up">
-        <img src="./imagens/logo-removebg-preview.png" alt="">
-        <a href="#"></a>
+   <section class="secao_logo" data-anime="up" id="contato">
+        <img class="img_secao_logo" src="./imagens/logo-removebg-preview.png" alt="">
+        <div >
+          <a class="whats_contato" href="https://wa.me/5521982996612?text=Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20as%20aulas%20de%20teatro" target='blank'><img src="./imagens/whats_contato.png" alt=""><p>(21) 98299-6612</p></a>
+        </div>
+       
    </section>
 
    <footer class="footer">
